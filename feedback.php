@@ -21,10 +21,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bind_param("ssss", $name, $email, $subject, $description);
 
     // Set parameters and execute
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $subject = $_POST['subject'];
-    $description = $_POST['description'];
+    $name = $_POST['user_name'];
+    $email = $_POST['user_email'];
+    $subject = $_POST['user_subject'];
+    $description = $_POST['user_message'];
 
     // Execute the statement
     if ($stmt->execute()) {
