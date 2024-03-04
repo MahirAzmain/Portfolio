@@ -15,6 +15,8 @@
 - Download my resume.
 - Footer with links to my social networks.
 - Button to go up to the top of the website.
+- PHP and Database added
+- Admin planel added for dynamically CRUD opewration
 
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
