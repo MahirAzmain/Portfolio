@@ -47,12 +47,12 @@ include ('connect.php') ;
 
     <meta
       property="article:author"
-      content="https://www.facebook.com/minhdp812/"
+      content="https://www.facebook.com/mahir.azmain.7"
     />
 
     <meta
       property="article:publisher"
-      content="https://www.facebook.com/minhdp812/"
+      content="https://www.facebook.com/mahir.azmain.7"
     />
 
     <meta property="article:tag" content="Mahir Azmain" />
@@ -86,19 +86,19 @@ include ('connect.php') ;
       content="With knowledge in web development and design, I offer the best projects resulting in quality work."
     />
 
-    <meta name="twitter:site" content="@minhpd812" />
+    <meta name="twitter:site" content="@mahirazmain7" />
 
-    <meta name="twitter:creator" content="@minhdp812" />
+    <meta name="twitter:creator" content="@mahirazmain7" />
 
-    <meta name="twitter:domain" content="https://minh0812.github.io/" />
+    <meta name="twitter:domain" content="https://github.com/MahirAzmain" />
 
     <meta name="twitter:label1" content="Written by" />
 
-    <meta name="twitter:data1" content="Phạm Duy Minh" />
+    <meta name="twitter:data1" content="Mahir Azmain" />
 
     <meta name="twitter:label2" content="Filed under" />
 
-    <meta name="twitter:data2" content="Phạm Duy Minh" />
+    <meta name="twitter:data2" content="Mahir Azmain" />
 
     <meta name="twitter:label3" content="Tagged" />
 
@@ -196,7 +196,7 @@ include ('connect.php') ;
 
             <li class="nav__item">
               <a
-                href="assets/cv/CV_PhamDuyMinh.pdf"
+                href="assets/cv/CV_2024030410050372.pdf"
                 target="_blank"
                 class="nav__link nav__link-button"
               >
@@ -254,7 +254,7 @@ include ('connect.php') ;
 
             <div class="home__social">
               <a
-                href="https://www.instagram.com/_minhdp/"
+                href="https://www.instagram.com/mahir_azmain_/"
                 target="_blank"
                 class="home__social-link"
               >
@@ -262,7 +262,7 @@ include ('connect.php') ;
               </a>
 
               <a
-                href="https://www.linkedin.com/in/minhdp/"
+                href="https://www.linkedin.com/in/mahir-azmain-haque-65b6a5219/"
                 target="_blank"
                 class="home__social-link"
               >
@@ -270,7 +270,7 @@ include ('connect.php') ;
               </a>
 
               <a
-                href="https://github.com/minh0812"
+                href="https://github.com/MahirAzmain"
                 target="_blank"
                 class="home__social-link"
               >
@@ -281,8 +281,8 @@ include ('connect.php') ;
 
           <div class="home__info">
             <p class="home__description">
-              <b>Frontend Developer</b>, with knowledge in web development and
-              design, I offer the best projects resulting in quality work.
+              <b>A University Student</b>, with knowledge in web development and
+              design, I want to learn so many things.
             </p>
 
             <a href="#about" class="home__scroll">
@@ -649,7 +649,7 @@ include ('connect.php') ;
             </div>
 
             <a
-              href="https://art-store-eta.vercel.app/"
+              href="<?php echo $row['demolink']; ?>"
               target="_blank"
               class="projects__demo button"
             >
@@ -776,7 +776,7 @@ include ('connect.php') ;
                 class="contact__button button"
                 id="contact-button"
                 type="submit"
-              disabled
+              
               >
                 <i class="ri-send-plane-line"></i> Send Message
               </button>
@@ -802,21 +802,21 @@ include ('connect.php') ;
 
               <div class="contact__social-links">
                 <a
-                  href="https://www.facebook.com/minhdp812/"
+                  href="https://www.facebook.com/mahir.azmain.7"
                   target="_blank"
                   class="contact__social-link"
                 >
                   <i class="ri-facebook-box-line"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/_minhdp/"
+                  href="https://www.instagram.com/mahir_azmain_/"
                   target="_blank"
                   class="contact__social-link"
                 >
                   <i class="ri-instagram-line"></i>
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/minhdp/"
+                  href="https://www.linkedin.com/in/mahir-azmain-haque-65b6a5219/"
                   target="_blank"
                   class="contact__social-link"
                 >
@@ -843,7 +843,7 @@ include ('connect.php') ;
 
         <span class="footer__copy">
           &#169; All Rights Reserved By
-          <a href="https://github.com/minh0812">Mahir Azmain</a>
+          <a href="https://github.com/MahirAzmain">Mahir Azmain</a>
         </span>
       </div>
     </footer>

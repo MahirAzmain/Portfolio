@@ -33,55 +33,7 @@ const shadowHeader = () => {
     : header?.classList.remove("shadow-header");
 };
 window?.addEventListener("scroll", shadowHeader);
-/*=============== EMAIL JS ===============*/
-/*const contactForm = document?.getElementById("contact-form");
-const contactMessage = document?.getElementById("contact-message");
-const btnSendMessage = document?.getElementById("contact-button");
 
-const sendEmail = (e) => {
-  e?.preventDefault();
-  btnSendMessage.innerHTML = "<i class='ri-send-plane-line'></i> Sending...";
-  btnSendMessage.disabled = true;
-  // service id, template id, form, public key
-  emailjs
-    ?.sendForm(
-      "service_jc9nd2h",
-      "template_jiin5n5",
-      contactForm,
-      "bJGLfO20ad8dY_bas"
-    )
-    ?.then(
-      (result) => {
-        contactMessage.innerHTML = "Message sent successfully ✅";
-
-        setTimeout(() => {
-          contactMessage.innerHTML = "";
-        }, 5000);
-
-        // reset form
-        contactForm?.reset();
-
-        btnSendMessage.innerHTML =
-          "<i class='ri-send-plane-line'></i> Send Message";
-
-        btnSendMessage.disabled = false;
-      },
-      (error) => {
-        contactMessage.innerHTML = "Message not sent (service error) ❌";
-
-        setTimeout(() => {
-          contactMessage.innerHTML = "";
-        }, 5000);
-
-        btnSendMessage.innerHTML =
-          "<i class='ri-send-plane-line'></i> Send Message";
-
-        btnSendMessage.disabled = false;
-      }
-    );
-};
-
-contactForm.addEventListener("submit", sendEmail);*/
 
 /*=============== SHOW SCROLL UP ===============*/
 const scrollUp = () => {
