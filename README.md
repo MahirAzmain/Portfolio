@@ -17,10 +17,11 @@
 - Button to go up to the top of the website.
 - PHP and Database added
 - Admin planel added for dynamically CRUD operation
+- session,cookies added
 
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
-Demo Video of my portfolio:
+**Demo Video of my portfolio:**
 
 https://youtu.be/SvSUw8_I15Q
